@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="../css/movie.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="row">
+        <!-- Ảnh -->
+        <div class="col-md-4">
+          <img id="img" class="img-fluid" />
+        </div>
+        <!-- Infor -->
+        <div class="col-md-8 text-white">
+          <h2 id="name"></h2>
+          <p id="desc"></p>
+          <h4 id="price"></h4>
+          <h5>Chọn giờ:</h5>
+          <div id="times"></div>
+          <h5 class="mt-3">Chọn ghế:</h5>
+          <select id="seat" class="form-select w-50" onchange="calculate()">
+            <option value="1">Thường</option>
+            <option value="1.4">VIP</option>
+            <option value="1.8">Ghế đôi</option>
+          </select>
+          <h5 class="mt-3">Số lượng:</h5>
+          <input
+            type="number"
+            id="quantity"
+            class="form-control w-25"
+            value="1"
+            onchange="calculate()"
+          />
+          <h4 class="mt-4" id="total"></h4>
+          <button class="btn btn-success mt-3" onclick="addToCart()">
+            Thanh toán
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/data.js"></script>
+    <script src="../js/movie.js"></script>
+  </body>
+</html>
