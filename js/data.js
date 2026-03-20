@@ -1,0 +1,32 @@
+const movies = [
+  {
+    id: 1,
+    name: "Avengers",
+    price: 50000,
+    type: "Hành động",
+    image: "/images/avengerss.jpeg",
+    description: "Siêu anh hùng",
+    showtime: ["9:00", "20:00"],
+    status: "trending",
+  },
+  {
+    id: 2,
+    name: "Titanic",
+    price: 40000,
+    type: "Tình cảm",
+    image: "/images/titanic.webp",
+    description: "Chuyện tình",
+    showtime: ["8:00", "21:00"],
+    status: "upcoming",
+  },
+  {
+    id: 3,
+    name: "Godzilla vs Kong",
+    price: 70000,
+    type: "Hành động",
+    image: "/images/godzivskong.jpg",
+    description: "Quái vật",
+    showtime: ["12:00"],
+    status: "trending",
+  },
+];

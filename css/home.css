@@ -1,0 +1,69 @@
+body {
+  background-color: #0f0f0f;
+  color: white;
+}
+.card {
+  background-color: #1a1a1a;
+  color: white;
+  border: none;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.title {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.movie-card {
+  background-color: #1a1a1a;
+  border: none;
+  overflow: hidden;
+}
+
+.img-box {
+  position: relative;
+}
+
+.img-box img {
+  width: 100%;
+  display: block;
+}
+
+/* Overlay tên */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #ffffff;
+  font-size: 20px;
+
+  opacity: 0;
+  transition: 0.3s;
+}
+
+/* Hover hiện tên */
+.img-box:hover .overlay {
+  opacity: 1;
+}
+
+/* Hover zoom ảnh */
+.img-box img {
+  transition: 0.3s;
+}
+
+.img-box:hover img {
+  transform: scale(1.1);
+}
