@@ -44,8 +44,8 @@ function calculate() {
 
   document.getElementById("total").innerText =
     "Tổng: " + total.toLocaleString() + " VND";
-  if (total < 0) {
-    alert("Lỗi");
+  if (total <= 0) {
+    alert("Chọn ít nhất 1 ghế");
   }
 }
 
