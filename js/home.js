@@ -5,17 +5,14 @@ function renderMovie(movie) {
   return `
     <div class="col-md-3 mb-4">
       <div class="card movie-card">
-
         <div class="img-box">
           <a href="movie.html?id=${movie.id}">
             <img src="${movie.image}" class="card-img-top" width="40" height="250">
           </a>
-
           <div class="overlay">
             <p>${movie.name}</p>
           </div>
         </div>
-
       </div>
     </div>
   `;

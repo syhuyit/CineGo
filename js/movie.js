@@ -51,17 +51,13 @@ function calculate() {
 
 function addToCart() {
   let cart = JSON.parse(localStorage.getItem("cart")) || [];
-
   const total = document.getElementById("total").innerText;
-
   cart.push({
     name: movie.name,
     time: selectedTime,
     total: total,
   });
-
   localStorage.setItem("cart", JSON.stringify(cart));
-
   alert("Đã thêm vào giỏ vé");
 }
 calculate();

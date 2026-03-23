@@ -14,7 +14,7 @@
     <!-- NAVBAR -->
     <nav
       class="navbar navbar-expand-lg"
-      style="background-color: rgb(165, 165, 243)"
+      style="background-color: rgb(254, 0, 0)"
     >
       <div class="container-fluid">
         <!-- LOGO -->
@@ -58,14 +58,18 @@
             </li>
           </ul>
           <!-- SEARCH -->
-          <input
-            class="form-control w-25 me-2"
-            placeholder="Nhập tên phim..."
-          />
+          <div class="me-2" style="position: relative; width: 25%">
+            <input
+              class="form-control me-2"
+              placeholder="Nhập tên phim..."
+              id="find"
+            />
+            <div id="search-result" class="bg-dark list-group"></div>
+          </div>
           <!-- CART -->
           <a href="cart.html" class="btn btn-success me-2">Giỏ vé</a>
           <!-- LOGOUT -->
-          <button class="btn btn-danger">Logout</button>
+          <button class="btn btn-warning">Logout</button>
         </div>
       </div>
     </nav>
@@ -83,5 +87,6 @@
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="/js/data.js"></script>
     <script src="/js/home.js"></script>
+    <script src="/js/search.js"></script>
   </body>
 </html>

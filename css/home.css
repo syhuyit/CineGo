@@ -68,3 +68,17 @@ body {
 .img-box:hover img {
   transform: scale(1.1);
 }
+
+#search-result {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 999;
+
+  background: white;
+  color: black;
+
+  max-height: 200px;
+  overflow-y: auto;
+}
