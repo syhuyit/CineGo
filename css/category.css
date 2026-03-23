@@ -1,0 +1,8 @@
+.movie-item {
+  transition: 0.2s;
+}
+
+.movie-item:hover {
+  transform: scale(1.02);
+  background-color: #1a1a1a;
+}

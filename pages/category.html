@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body style="background-color: rgb(83, 74, 74)">
+    <!-- NAVBAR -->
+    <nav
+      class="navbar navbar-expand-lg"
+      style="background-color: rgb(165, 165, 243)"
+    >
+      <div class="container-fluid">
+        <!-- LOGO -->
+        <a class="navbar-brand text-white" href="#">
+          <img src="../images/logo.png" width="90" />
+          CineGo
+        </a>
+
+        <!-- MENU -->
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a href="home.html" class="nav-link text-white">Trang chính</a>
+            </li>
+            <!-- DROPDOWN -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                data-bs-toggle="dropdown"
+              >
+                Thể loại
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="category.html?type=Hành động"
+                    >Hành động</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="category.html?type=Tình cảm"
+                    >Tình cảm</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="category.html?type=Kinh dị"
+                    >Kinh dị</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <!-- CART -->
+          <a href="cart.html" class="btn btn-success me-2">Giỏ vé</a>
+        </div>
+      </div>
+    </nav>
+    <!-- Content -->
+    <div class="container" style="background-color: black; color: white">
+      <h2 id="title"></h2>
+      <div class="row" id="movie-list"></div>
+    </div>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/data.js"></script>
+    <script src="../js/category.js"></script>
+  </body>
+</html>
