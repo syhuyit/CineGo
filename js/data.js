@@ -39,7 +39,7 @@ const movies = [
     type: "Anime",
     image: "/images/jojop1.jpg",
     description:
-      "JoJo's Bizarre Adventure là một loạt truyện tranh Nhật Bản được sáng tác bởi Hirohiko Araki. Bộ phim kể về cuộc chiến giữa các thế hệ của gia đình Joestar, với mỗi thế hệ đều có một thành viên sở拥有 một sức mạnh đặc biệt gọi là 'Stand'. Phim hoạt hình này đã được sản xuất bởi David Production và phân phối bởi Warner Bros. Pictures tại thị trường quốc tế.",
+      "JoJo's Bizarre Adventure Phần 1: Phantom Blood (Máu Ma Cà Rồng) là câu chuyện kinh điển về cuộc đối đầu giữa Jonathan Joestar và anh trai nuôi tham vọng Dio Brando tại nước Anh những năm 1880. Dio sử dụng mặt nạ đá bí ẩn để biến thành ma cà rồng nhằm chiếm đoạt gia tài, buộc Jonathan phải học kỹ thuật thở Gợn Sóng (Hamon) để chiến đấu",
     showtimes: ["13:00", "15:00"],
     status: "trending",
   },
@@ -65,4 +65,48 @@ const movies = [
     showtimes: ["09:00"],
     status: "trending",
   },
+   {
+    id: 7,
+    name: "Dan Da Dan",
+    price: 45000,
+    type: ["Anime", "Kinh dị"],
+    image: "/images/dandandan.jpg",
+    description:
+      "Dan Da Dan là bộ anime hành động, kinh dị, hài hước nổi tiếng của Nhật Bản (tác giả Tatsu Yukinobu, từ 2021). Câu chuyện xoay quanh Momo Ayase - nữ sinh tin vào ma và Okarun - nam sinh cuồng người ngoài hành tinh. Họ phải đối mặt với các thế lực siêu nhiên và người ngoài hành tinh kỳ quái, tạo nên một hành trình độc đáo, hài hước và kịch tính.",
+    showtimes: ["09:00"],
+    status: "upcoming",
+  },
+  {
+    id: 8,
+    name: "JoJO Bizarre Adventure Part 2",
+    price: 35000,
+    type: "Anime",
+    image: "/images/jojop2.jpg",
+    description:
+      "JoJo Part 2: Battle Tendency (1938-1939) theo chân Joseph Joestar, cháu nội của Jonathan, chiến đấu chống lại các Pillar Men (Người Cột) cổ đại nhằm bảo vệ nhân loại và giành lại Viên đá Đỏ Aja. Phần này nổi bật với nhịp độ nhanh, yếu tố hài hước, chiến thuật thông minh và bối cảnh Thế chiến II tại Âu-Mỹ",
+    showtimes: ["20:00", "21:00"],
+    status: "upcoming",
+  },
+  {
+    id: 9,
+    name: "JoJO Bizarre Adventure Part 3",
+    price: 35000,
+    type: "Anime",
+    image: "/images/jojop3.jpg",
+    description:
+      "JoJo's Bizarre Adventure Part 3: Stardust Crusaders (Những Chiến binh Bụi sao) là phần nổi tiếng nhất, kể về hành trình của Jotaro Kujo và đồng đội từ Tokyo đến Cairo, Ai Cập, nhằm đánh bại DIO để cứu mẹ. Đây là phần đầu tiên giới thiệu hệ thống Stand (linh hồn chiến đấu), thay thế cho Hamon. Phần này nổi bật với các trận chiến Stand độc đáo, nhân vật đa dạng và cốt truyện hấp dẫn, trở thành biểu tượng của loạt JoJo.",
+    showtimes: ["20:00", "21:00"],
+    status: "upcoming",
+  },
+  {
+    id: 10,
+    name: "JoJO Bizarre Adventure Part 4",
+    price: 35000,
+    type: "Anime",
+    image: "/images/jojop4.jpg",
+    description:
+      "JoJo's Bizarre Adventure Part 4: Diamond Is Unbreakable (1992-1995) lấy bối cảnh năm 1999 tại thị trấn Morioh, xoay quanh Josuke Higashikata - con trai ngoài giá thú của Joseph Joestar. Phần này mang phong cách trinh thám, đời thường xen lẫn kinh dị, khi Josuke và bạn bè săn lùng kẻ giết người hàng loạt sở hữu Stand.",
+    showtimes: ["20:00", "21:00"],
+    status: "upcoming",
+  }
 ];
