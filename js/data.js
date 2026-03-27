@@ -24,12 +24,45 @@ const movies = [
   {
     id: 3,
     name: "Godzilla vs Kong",
-    price: 70000,
+    price: 60000,
     type: "Hành động",
     image: "/images/godzivskong.jpg",
     description:
       "Godzilla vs. Kong là một bộ phim quái vật Mỹ năm 2021 do Adam Wingard đạo diễn. Được sản xuất bởi Legendary Pictures và phân phối bởi Warner Bros. Pictures, đây là phần tiếp theo của Kong: Skull Island (2017) và Godzilla: King of the Monsters (2019), và là bộ phim thứ tư trong Vũ trụ Quái vật (Monsterverse). Đây cũng là bộ phim thứ 36 trong loạt phim Godzilla, bộ phim thứ 12 trong loạt phim King Kong, và là bộ phim Godzilla thứ tư được sản xuất hoàn toàn bởi một hãng phim Mỹ. Phim có sự tham gia của các diễn viên Alexander Skarsgård, Millie Bobby Brown, Rebecca Hall, Brian Tyree Henry, Shun Oguri, Eiza González, Julian Dennison, Lance Reddick, Kyle Chandler và Demián Bichir. Brown và Chandler tiếp tục đảm nhận vai diễn của họ từ bộ phim Godzilla trước đó. Trong phim, Kong đụng độ với Godzilla sau khi tổ chức Monarch di chuyển con khỉ đột từ Đảo Skull đến Trái Đất Rỗng, quê hương của những quái vật được gọi là Titan, để lấy nguồn năng lượng cho một vũ khí bí mật nhằm ngăn chặn các cuộc tấn công bí ẩn của Godzilla.",
     showtimes: ["12:00"],
+    status: "trending",
+  },
+   {
+    id: 4,
+    name: "JoJO Bizarre Adventure Part 1",
+    price: 35000,
+    type: "Anime",
+    image: "/images/jojop1.jpg",
+    description:
+      "JoJo's Bizarre Adventure là một loạt truyện tranh Nhật Bản được sáng tác bởi Hirohiko Araki. Bộ phim kể về cuộc chiến giữa các thế hệ của gia đình Joestar, với mỗi thế hệ đều có một thành viên sở拥有 một sức mạnh đặc biệt gọi là 'Stand'. Phim hoạt hình này đã được sản xuất bởi David Production và phân phối bởi Warner Bros. Pictures tại thị trường quốc tế.",
+    showtimes: ["13:00", "15:00"],
+    status: "trending",
+  },
+   {
+    id: 5,
+    name: "Dr.Stone",
+    price: 36000,
+    type: "Anime",
+    image: "/images/drstone.jpg",
+    description:
+      "Dr. Stone là một bộ phim hoạt hình Nhật Bản dựa trên loạt truyện tranh cùng tên của Rumiko Takahashi. Phim kể về một cậu bé tên là Senku Ishigami, người sau khi bị biến thành đá bởi một tia sáng bí ẩn, đã sử dụng kiến thức khoa học để khôi phục thế giới và xây dựng lại nền văn minh. Phim có sự tham gia của các diễn viên như Yuki Kajiura, Yuki Kajiura, và các diễn viên khác.",
+    showtimes: ["19:00", "21:00"],
+    status: "trending",
+  },
+   {
+    id: 6,
+    name: "Overlord",
+    price: 36000,
+    type: "Anime",
+    image: "/images/overlord.jpg",
+    description:
+      "Overlord là một bộ phim hoạt hình Nhật Bản dựa trên loạt truyện tranh cùng tên của Kugane Maruyama. Phim kể về một chàng trai tên là Ainz Ooal Gown, người sau khi bị biến thành một sinh vật siêu nhiên, đã trở thành lãnh chúa của một thế giới khác. Phim có sự tham gia của các diễn viên như Yuki Kajiura, Yuki Kajiura, và các diễn viên khác.",
+    showtimes: ["09:00"],
     status: "trending",
   },
 ];
