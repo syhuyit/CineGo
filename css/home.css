@@ -17,9 +17,15 @@ body {
 }
 
 .title {
+  display: inline-block;
+  border: solid 1px red;
+  border-radius: 8px;
+  padding: 10px 20px;
+  background-color: red;
   text-align: center;
-  font-size: 50px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 35px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-bottom: 30px;
 }
 
 .movie-card {
@@ -35,6 +41,44 @@ body {
 .img-box img {
   width: 100%;
   display: block;
+}
+.hero {
+  height: 400px;
+  background-image: url("../images/FaW.avif"); /* ảnh của bạn */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.btn-main {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: red;
+  color: white;
+  border: none;
+  transition: 0.3s;
+}
+.overlay-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background: rgba(0, 0, 0, 0.5); /* làm tối ảnh */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  text-align: center;
+}
+
+.btn-main:hover {
+  background: orange;
+  transform: scale(1.05);
 }
 
 /* Overlay tên */
@@ -85,4 +129,22 @@ body {
 
   max-height: 200px;
   overflow-y: auto;
+}
+
+.nav-link {
+  color: #ffffff;
+}
+.nav-link:hover {
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+}
+
+.custom-input {
+  width: 320px;
+  background-color: black;
+  color: white;
+  border: 1px solid red;
+  border-radius: 8px;
+  padding: 10px;
 }

@@ -11,7 +11,7 @@ function renderMovie(movie) {
           </a>
           <div class="overlay">
             <p>${movie.name}</p>
-            <a href="movie.html?id=${movie.id}" class="btn btn-danger">Mua vé</a>
+            <a href="movie.html?id=${movie.id}" class="btn btn-danger">🎬 Mua vé</a>
           </div>
         </div>
       </div>
