@@ -32,7 +32,7 @@ const movies = [
     showtimes: ["12:00"],
     status: "trending",
   },
-   {
+  {
     id: 4,
     name: "JoJO Bizarre Adventure Part 1",
     price: 36000,
@@ -43,7 +43,7 @@ const movies = [
     showtimes: ["13:00", "15:00"],
     status: "trending",
   },
-   {
+  {
     id: 5,
     name: "Dr.Stone",
     price: 36000,
@@ -54,7 +54,7 @@ const movies = [
     showtimes: ["19:00", "21:00"],
     status: "trending",
   },
-   {
+  {
     id: 6,
     name: "Overlord",
     price: 36000,
@@ -65,7 +65,7 @@ const movies = [
     showtimes: ["09:00"],
     status: "trending",
   },
-   {
+  {
     id: 7,
     name: "Dan Da Dan",
     price: 45000,
@@ -136,7 +136,7 @@ const movies = [
     name: "Pacific Rim",
     price: 50000,
     type: ["Hành động", "Kịch Tính"],
-    image: "/images/PacificRim.jpg",
+    image: "/images/Pacific_Rim.jpg",
     description:
       "Pacific Rim là một bộ phim khoa học viễn tưởng hành động kể về các robot khổng lồ được điều khiển bởi con người để chống lại các sinh vật biển nguy hiểm đến từ thế giới bên kia.",
     showtimes: ["21:00", "22:00"],
@@ -146,7 +146,7 @@ const movies = [
     id: 14,
     name: "Spider Man No Way Home",
     price: 65000,
-    type: ["Hành động", "Kịch Tính","Phiêu Lưu"],
+    type: ["Hành động", "Kịch Tính", "Phiêu Lưu"],
     image: "/images/Spider-Man_No_Way_Home.jpg",
     description:
       "Spider-Man No Way Home: (Người Nhện: Không Còn Nhà) là bom tấn siêu anh hùng 2021, xoay quanh việc Peter Parker (Tom Holland) nhờ Doctor Strange xóa ký ức thế giới về danh tính Người Nhện sau khi bị Mysterio tiết lộ. Phép thuật sai sót mở ra đa vũ trụ, khiến các phản diện từ các phần phim trước quay lại, tạo nên cuộc phiêu lưu đầy cảm xúc và tri ân di sản 20 năm của thương hiệu",
