@@ -28,3 +28,19 @@ trending.forEach((m) => {
 upcoming.forEach((m) => {
   upcomingBox.innerHTML += renderMovie(m);
 });
+
+function renderCategory() {
+  const categoryBox = document.getElementById("category-list");
+  const categories = [...new Set(movies.map((m) => m.type))];
+
+  categories.forEach((c) => {
+    categoryBox.innerHTML += `
+      <li>
+        <a class="dropdown-item" href="category.html?type=${c}">
+          ${c}
+        </a>
+      </li>
+    `;
+  });
+}
+renderCategory();
