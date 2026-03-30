@@ -7,7 +7,7 @@ function renderMovie(movie) {
       <div class="card movie-card">
         <div class="img-box">
           <a href="movie.html?id=${movie.id}">
-            <img src="${movie.image}" class="card-img-top" height="300">
+            <img src="${movie.image}" class="card-img-top" height="200">
           </a>
           <div class="overlay">
             <p>${movie.name}</p>
