@@ -1,0 +1,14 @@
+#cart-list img {
+  object-fit: cover;
+}
+
+button {
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+#ticket {
+  border: 1px solid white;
+}

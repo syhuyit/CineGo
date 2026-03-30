@@ -50,13 +50,35 @@ function calculate() {
 }
 
 function addToCart() {
+  if (!selectedTime) {
+    alert("Vui lòng chọn giờ chiếu!");
+    return;
+  }
+
   let cart = JSON.parse(localStorage.getItem("cart")) || [];
-  const total = document.getElementById("total").innerText;
-  cart.push({
-    name: movie.name,
-    time: selectedTime,
-    total: total,
-  });
+
+  const seat = Number(document.getElementById("seat").value);
+  const quantity = Number(document.getElementById("quantity").value);
+
+  // check trùng phim + giờ + ghế
+  const existing = cart.find(
+    (c) => c.id === movie.id && c.time === selectedTime && c.seat === seat,
+  );
+
+  if (existing) {
+    existing.quantity += quantity;
+  } else {
+    cart.push({
+      id: movie.id,
+      name: movie.name,
+      image: movie.image,
+      time: selectedTime,
+      seat: seat,
+      quantity: quantity,
+      price: movie.price,
+    });
+  }
+
   localStorage.setItem("cart", JSON.stringify(cart));
   alert("Đã thêm vào giỏ vé");
 }
