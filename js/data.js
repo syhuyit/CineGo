@@ -85,7 +85,7 @@ const movies = [
     description:
       "JoJo Part 2: Battle Tendency (1938-1939) theo chân Joseph Joestar, cháu nội của Jonathan, chiến đấu chống lại các Pillar Men (Người Cột) cổ đại nhằm bảo vệ nhân loại và giành lại Viên đá Đỏ Aja. Phần này nổi bật với nhịp độ nhanh, yếu tố hài hước, chiến thuật thông minh và bối cảnh Thế chiến II tại Âu-Mỹ",
     showtimes: ["20:00", "21:00"],
-    status: "upcoming",
+    status: "trending",
   },
   {
     id: 9,
@@ -108,5 +108,49 @@ const movies = [
       "JoJo's Bizarre Adventure Part 4: Diamond Is Unbreakable (1992-1995) lấy bối cảnh năm 1999 tại thị trấn Morioh, xoay quanh Josuke Higashikata - con trai ngoài giá thú của Joseph Joestar. Phần này mang phong cách trinh thám, đời thường xen lẫn kinh dị, khi Josuke và bạn bè săn lùng kẻ giết người hàng loạt sở hữu Stand.",
     showtimes: ["20:00", "21:00"],
     status: "upcoming",
-  }
+  },
+  {
+    id: 11,
+    name: "BoJack Horseman",
+    price: 35000,
+    type: "Anime",
+    image: "/images/bojack.jpg",
+    description:
+      "BoJack Horseman là một loạt phim hoạt hình Mỹ, kể về cuộc sống của BoJack Horseman, một diễn viên hài nổi tiếng nhưng đang đối mặt với những vấn đề trong cuộc sống cá nhân và nghề nghiệp.",
+    showtimes: ["08:00", "14:00"],
+    status: "trending",
+  },
+  {
+    id: 12,
+    name: "Dr.Strange",
+    price: 35000,
+    type: "Anime",
+    image: "/images/drstrange.jpg",
+    description:
+      "Dr. Strange là một bộ phim siêu anh hùng dựa trên nhân vật cùng tên từ truyện tranh Marvel. Phim kể về Stephen Strange, một bác sĩ tài năng nhưng sau một tai nạn nghiêm trọng, anh phải tìm đến các nghệ thuật phép thuật để cứu lấy cuộc sống của mình.",
+    showtimes: ["18:00", "20:00"],
+    status: "upcoming",
+  },
+  {
+    id: 13,
+    name: "Pacific Rim",
+    price: 35000,
+    type: "Anime",
+    image: "/images/PacificRim.jpg",
+    description:
+      "Pacific Rim là một bộ phim khoa học viễn tưởng hành động kể về các robot khổng lồ được điều khiển bởi con người để chống lại các sinh vật biển nguy hiểm đến từ thế giới bên kia.",
+    showtimes: ["21:00", "22:00"],
+    status: "trending",
+  },
+  {
+    id: 14,
+    name: "Spider Man No Way Home",
+    price: 35000,
+    type: "Anime",
+    image: "/images/Spider-Man_No_Way_Home.jpg",
+    description:
+      "Spider-Man No Way Home: (Người Nhện: Không Còn Nhà) là bom tấn siêu anh hùng 2021, xoay quanh việc Peter Parker (Tom Holland) nhờ Doctor Strange xóa ký ức thế giới về danh tính Người Nhện sau khi bị Mysterio tiết lộ. Phép thuật sai sót mở ra đa vũ trụ, khiến các phản diện từ các phần phim trước quay lại, tạo nên cuộc phiêu lưu đầy cảm xúc và tri ân di sản 20 năm của thương hiệu",
+    showtimes: ["22:00", "23:00"],
+    status: "upcoming",
+  },
 ];
