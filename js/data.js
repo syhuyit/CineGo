@@ -35,7 +35,7 @@ const movies = [
    {
     id: 4,
     name: "JoJO Bizarre Adventure Part 1",
-    price: 35000,
+    price: 36000,
     type: "Anime",
     image: "/images/jojop1.jpg",
     description:
@@ -79,7 +79,7 @@ const movies = [
   {
     id: 8,
     name: "JoJO Bizarre Adventure Part 2",
-    price: 35000,
+    price: 36000,
     type: "Anime",
     image: "/images/jojop2.jpg",
     description:
@@ -90,7 +90,7 @@ const movies = [
   {
     id: 9,
     name: "JoJO Bizarre Adventure Part 3",
-    price: 35000,
+    price: 36000,
     type: "Anime",
     image: "/images/jojop3.jpg",
     description:
@@ -101,7 +101,7 @@ const movies = [
   {
     id: 10,
     name: "JoJO Bizarre Adventure Part 4",
-    price: 35000,
+    price: 36000,
     type: "Anime",
     image: "/images/jojop4.jpg",
     description:
@@ -112,8 +112,8 @@ const movies = [
   {
     id: 11,
     name: "BoJack Horseman",
-    price: 35000,
-    type: "Anime",
+    price: 45000,
+    type: "Hoạt hình",
     image: "/images/bojack.jpg",
     description:
       "BoJack Horseman là một loạt phim hoạt hình Mỹ, kể về cuộc sống của BoJack Horseman, một diễn viên hài nổi tiếng nhưng đang đối mặt với những vấn đề trong cuộc sống cá nhân và nghề nghiệp.",
@@ -123,8 +123,8 @@ const movies = [
   {
     id: 12,
     name: "Dr.Strange",
-    price: 35000,
-    type: "Anime",
+    price: 65000,
+    type: ["Hành động", "Kịch Tính", "Phiêu Lưu"],
     image: "/images/drstrange.jpg",
     description:
       "Dr. Strange là một bộ phim siêu anh hùng dựa trên nhân vật cùng tên từ truyện tranh Marvel. Phim kể về Stephen Strange, một bác sĩ tài năng nhưng sau một tai nạn nghiêm trọng, anh phải tìm đến các nghệ thuật phép thuật để cứu lấy cuộc sống của mình.",
@@ -134,8 +134,8 @@ const movies = [
   {
     id: 13,
     name: "Pacific Rim",
-    price: 35000,
-    type: "Anime",
+    price: 50000,
+    type: ["Hành động", "Kịch Tính"],
     image: "/images/PacificRim.jpg",
     description:
       "Pacific Rim là một bộ phim khoa học viễn tưởng hành động kể về các robot khổng lồ được điều khiển bởi con người để chống lại các sinh vật biển nguy hiểm đến từ thế giới bên kia.",
@@ -145,8 +145,8 @@ const movies = [
   {
     id: 14,
     name: "Spider Man No Way Home",
-    price: 35000,
-    type: "Anime",
+    price: 65000,
+    type: ["Hành động", "Kịch Tính","Phiêu Lưu"],
     image: "/images/Spider-Man_No_Way_Home.jpg",
     description:
       "Spider-Man No Way Home: (Người Nhện: Không Còn Nhà) là bom tấn siêu anh hùng 2021, xoay quanh việc Peter Parker (Tom Holland) nhờ Doctor Strange xóa ký ức thế giới về danh tính Người Nhện sau khi bị Mysterio tiết lộ. Phép thuật sai sót mở ra đa vũ trụ, khiến các phản diện từ các phần phim trước quay lại, tạo nên cuộc phiêu lưu đầy cảm xúc và tri ân di sản 20 năm của thương hiệu",
