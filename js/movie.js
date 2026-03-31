@@ -50,6 +50,8 @@ function calculate() {
 
     document.getElementById("total").innerHTML =
       `Tổng: ${total.toLocaleString("vi-VN")} VND`;
+    document.getElementById("promo").innerHTML =
+      `Đã được giảm: ${promo.toLocaleString("vi-VN")} VND`;
   } else {
     document.getElementById("total").innerText =
       "Tổng: " + total.toLocaleString("vi-VN") + " VND";

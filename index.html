@@ -3,28 +3,59 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/style.css" />
-    <title>Đăng nhập</title>
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Login - CineGo</title>
   </head>
-  <body>
-    <h1>Đăng nhập</h1>
-    <br />
-    <img src="./img/logo.png" alt="logo" />
-    <br />
-    <h2>mySpace Gallery</h2>
-    <br />
-    <form id="loginForm">
-      <label for="user"><strong>Tài khoản</strong></label
-      ><br />
-      <input type="text" id="user" name="user" required />
-      <br /><br />
-      <label for="password"><strong>Mật khẩu</strong></label
-      ><br />
-      <input type="password" id="password" name="password" required />
-      <br /><br />
-      <button type="submit">Tiếp tục</button>
-    </form>
 
-    <script src="script/index.js"></script>
+  <body>
+    <div class="login-box">
+      <h4 class="login-title">
+        Cine<span style="color: #e50914">Go</span> Login
+      </h4>
+
+      <form>
+        <div class="mb-3">
+          <input
+            id="user"
+            type="text"
+            class="form-control"
+            placeholder="Tên đăng nhập..."
+          />
+        </div>
+
+        <div class="mb-3">
+          <input
+            id="pass"
+            type="password"
+            class="form-control"
+            placeholder="Mật khẩu..."
+          />
+        </div>
+
+        <div class="extra">
+          <label><input type="checkbox" /> Lưu mật khẩu</label>
+          <a href="#">Quên mật khẩu?</a>
+        </div>
+
+        <button type="button" onclick="dangNhap()" class="btn btn-login mt-3">
+          Đăng nhập
+        </button>
+
+        <div class="divider">hoặc</div>
+
+        <div class="d-flex justify-content-between social-btns">
+          <button class="btn btn-primary btn-sm">Facebook</button>
+          <button class="btn btn-info btn-sm">Twitter</button>
+        </div>
+
+        <p class="text-center mt-3">
+          Chưa có tài khoản? <a href="#" style="color: #e50914">Đăng ký ngay</a>
+        </p>
+      </form>
+    </div>
   </body>
 </html>
