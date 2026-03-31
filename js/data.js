@@ -41,7 +41,7 @@ const movies = [
     description:
       "JoJo's Bizarre Adventure Phần 1: Phantom Blood (Máu Ma Cà Rồng) là câu chuyện kinh điển về cuộc đối đầu giữa Jonathan Joestar và anh trai nuôi tham vọng Dio Brando tại nước Anh những năm 1880. Dio sử dụng mặt nạ đá bí ẩn để biến thành ma cà rồng nhằm chiếm đoạt gia tài, buộc Jonathan phải học kỹ thuật thở Gợn Sóng (Hamon) để chiến đấu",
     showtimes: ["13:00", "15:00"],
-    status: "trending",
+    status: "",
   },
   {
     id: 5,
@@ -69,7 +69,7 @@ const movies = [
     id: 7,
     name: "Dan Da Dan",
     price: 45000,
-    type: ["Anime", "Kinh dị"],
+    type: "Anime",
     image: "/images/dandandan.jpg",
     description:
       "Dan Da Dan là bộ anime hành động, kinh dị, hài hước nổi tiếng của Nhật Bản (tác giả Tatsu Yukinobu, từ 2021). Câu chuyện xoay quanh Momo Ayase - nữ sinh tin vào ma và Okarun - nam sinh cuồng người ngoài hành tinh. Họ phải đối mặt với các thế lực siêu nhiên và người ngoài hành tinh kỳ quái, tạo nên một hành trình độc đáo, hài hước và kịch tính.",
@@ -85,7 +85,7 @@ const movies = [
     description:
       "JoJo Part 2: Battle Tendency (1938-1939) theo chân Joseph Joestar, cháu nội của Jonathan, chiến đấu chống lại các Pillar Men (Người Cột) cổ đại nhằm bảo vệ nhân loại và giành lại Viên đá Đỏ Aja. Phần này nổi bật với nhịp độ nhanh, yếu tố hài hước, chiến thuật thông minh và bối cảnh Thế chiến II tại Âu-Mỹ",
     showtimes: ["20:00", "21:00"],
-    status: "trending",
+    status: "",
   },
   {
     id: 9,
@@ -124,7 +124,7 @@ const movies = [
     id: 12,
     name: "Dr.Strange",
     price: 65000,
-    type: ["Hành động", "Kịch Tính", "Phiêu Lưu"],
+    type: "Hành động",
     image: "/images/drstrange.jpg",
     description:
       "Dr. Strange là một bộ phim siêu anh hùng dựa trên nhân vật cùng tên từ truyện tranh Marvel. Phim kể về Stephen Strange, một bác sĩ tài năng nhưng sau một tai nạn nghiêm trọng, anh phải tìm đến các nghệ thuật phép thuật để cứu lấy cuộc sống của mình.",
@@ -135,7 +135,7 @@ const movies = [
     id: 13,
     name: "Pacific Rim",
     price: 50000,
-    type: ["Hành động", "Kịch Tính"],
+    type: "Hành động",
     image: "/images/Pacific_Rim.jpg",
     description:
       "Pacific Rim là một bộ phim khoa học viễn tưởng hành động kể về các robot khổng lồ được điều khiển bởi con người để chống lại các sinh vật biển nguy hiểm đến từ thế giới bên kia.",
@@ -146,7 +146,7 @@ const movies = [
     id: 14,
     name: "Spider Man No Way Home",
     price: 65000,
-    type: ["Hành động", "Kịch Tính", "Phiêu Lưu"],
+    type: "Hành động",
     image: "/images/Spider-Man_No_Way_Home.jpg",
     description:
       "Spider-Man No Way Home: (Người Nhện: Không Còn Nhà) là bom tấn siêu anh hùng 2021, xoay quanh việc Peter Parker (Tom Holland) nhờ Doctor Strange xóa ký ức thế giới về danh tính Người Nhện sau khi bị Mysterio tiết lộ. Phép thuật sai sót mở ra đa vũ trụ, khiến các phản diện từ các phần phim trước quay lại, tạo nên cuộc phiêu lưu đầy cảm xúc và tri ân di sản 20 năm của thương hiệu",

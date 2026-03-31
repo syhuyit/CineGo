@@ -3,11 +3,11 @@ const upcomingBox = document.getElementById("upcoming");
 
 function renderMovie(movie) {
   return `
-    <div class="col-md-3 mb-4">
+    <div class="col-md-2 mb-3">
       <div class="card movie-card">
         <div class="img-box">
           <a href="movie.html?id=${movie.id}">
-            <img src="${movie.image}" class="card-img-top" height="200">
+            <img src="${movie.image}" class="card-img-top" height="250">
           </a>
           <div class="overlay">
             <p>${movie.name}</p>
