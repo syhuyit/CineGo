@@ -11,6 +11,8 @@ if (!movie) {
 document.getElementById("name").innerText = movie.name;
 document.getElementById("img").src = movie.image;
 document.getElementById("desc").innerText = movie.description;
+document.getElementById("release").innerText =
+  "Ngày công chiếu: " + movie.releaseDate;
 document.getElementById("price").innerText = "Giá vé: " + movie.price + " VND";
 
 const timeBox = document.getElementById("times");
@@ -40,7 +42,18 @@ function calculate() {
   const seat = Number(document.getElementById("seat").value);
   const quantity = Number(document.getElementById("quantity").value);
 
-  const total = movie.price * seat * quantity;
+  let total = movie.price * seat * quantity;
+
+  if (movie.status === "upcoming") {
+    const promo = total * 0.1;
+    total -= promo;
+
+    document.getElementById("total").innerHTML =
+      `Tổng: ${total.toLocaleString("vi-VN")} VND`;
+  } else {
+    document.getElementById("total").innerText =
+      "Tổng: " + total.toLocaleString("vi-VN") + " VND";
+  }
 
   document.getElementById("total").innerText =
     "Tổng: " + total.toLocaleString() + " VND";

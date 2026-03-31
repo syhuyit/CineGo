@@ -20,6 +20,7 @@ const movies = [
       "Titanic là một bộ phim sử thi lãng mạn lịch sử thảm họa của Mỹ năm 1997 do James Cameron viết kịch bản và đạo diễn. Kết hợp cả yếu tố lịch sử và hư cấu, phim dựa trên những ghi chép về vụ chìm tàu ​​RMS Titanic năm 1912. Leonardo DiCaprio và Kate Winslet đóng vai hai người thuộc hai tầng lớp xã hội khác nhau, yêu nhau trong chuyến hải hành định mệnh đầu tiên của con tàu. Dàn diễn viên còn có Billy Zane, Kathy Bates, Frances Fisher, Bernard Hill, Jonathan Hyde, Danny Nucci, David Warner và Bill Paxton.",
     showtimes: ["8:00", "21:00"],
     status: "upcoming",
+    releaseDate: "30/9/2026",
   },
   {
     id: 3,
