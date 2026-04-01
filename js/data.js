@@ -116,7 +116,7 @@ const movies = [
     type: "Hoạt hình",
     image: "/images/bojack.jpg",
     description:
-      "BoJack Horseman là một loạt phim hoạt hình Mỹ, kể về cuộc sống của BoJack Horseman, một diễn viên hài nổi tiếng nhưng đang đối mặt với những vấn đề trong cuộc sống cá nhân và nghề nghiệp.",
+      "BoJack Horseman là nhân vật chính trong bộ phim hoạt hình người lớn cùng tên, được mô tả là một chú ngựa nhân cách hóa từng nổi tiếng, nhưng hiện tại sống cay đắng, trầm cảm, tự ghét bản thân và hay tự hủy hoại. Anh là hình tượng đại diện cho sự tổn thương, ái kỷ và những xung đột nội tâm phức tạp, luôn loay hoay tìm kiếm hạnh phúc trong sự xô bồ của Hollywood..",
     showtimes: ["08:00", "14:00"],
     status: "trending",
   },
@@ -127,7 +127,7 @@ const movies = [
     type: ["Hành động", "Kịch Tính", "Phiêu Lưu"],
     image: "/images/drstrange.jpg",
     description:
-      "Dr. Strange là một bộ phim siêu anh hùng dựa trên nhân vật cùng tên từ truyện tranh Marvel. Phim kể về Stephen Strange, một bác sĩ tài năng nhưng sau một tai nạn nghiêm trọng, anh phải tìm đến các nghệ thuật phép thuật để cứu lấy cuộc sống của mình.",
+      "Doctor Strange (Stephen Strange) là một bậc thầy nghệ thuật huyền bí và Pháp sư Tối cao trong Vũ trụ Điện ảnh Marvel (MCU), nổi tiếng với trí tuệ cao cường, sự kiêu ngạo ban đầu và khả năng thao túng phép thuật/đa vũ trụ. Từ một bác sĩ phẫu thuật thần kinh tài giỏi, anh trở thành người bảo vệ Trái đất sau tai nạn tàn phế đôi tay.",
     showtimes: ["18:00", "20:00"],
     status: "upcoming",
   },
@@ -138,7 +138,7 @@ const movies = [
     type: ["Hành động", "Kịch Tính"],
     image: "/images/Pacific_Rim.jpg",
     description:
-      "Pacific Rim là một bộ phim khoa học viễn tưởng hành động kể về các robot khổng lồ được điều khiển bởi con người để chống lại các sinh vật biển nguy hiểm đến từ thế giới bên kia.",
+      "The Pacific (Mặt trận Thái Bình Dương) là bộ phim truyền hình ngắn tập (miniseries) nổi tiếng năm 2010 do HBO sản xuất, mô tả chân thực và tàn khốc cuộc chiến giữa Thủy quân lục chiến Mỹ và Đế quốc Nhật Bản. Được sản xuất bởi Steven Spielberg và Tom Hanks, phim tập trung vào trải nghiệm của ba lính thủy đánh bộ trẻ tại chiến trường Thái Bình Dương trong Thế chiến II",
     showtimes: ["21:00", "22:00"],
     status: "trending",
   },
