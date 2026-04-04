@@ -11,8 +11,6 @@ if (!movie) {
 document.getElementById("name").innerText = movie.name;
 document.getElementById("img").src = movie.image;
 document.getElementById("desc").innerText = movie.description;
-document.getElementById("release").innerText =
-  "Ngày công chiếu: " + movie.releaseDate;
 document.getElementById("price").innerText = "Giá vé: " + movie.price + " VND";
 
 const timeBox = document.getElementById("times");
@@ -38,6 +36,12 @@ function selectTime(t, el) {
   el.classList.add("btn-warning");
 }
 
+document.getElementById("quantity").addEventListener("input", function () {
+  if (this.value < 1) {
+    this.value = 1;
+  }
+});
+
 function calculate() {
   const seat = Number(document.getElementById("seat").value);
   const quantity = Number(document.getElementById("quantity").value);
@@ -45,6 +49,8 @@ function calculate() {
   let total = movie.price * seat * quantity;
 
   if (movie.status === "upcoming") {
+    document.getElementById("release").innerText =
+      "Ngày công chiếu: " + movie.releaseDate;
     const promo = total * 0.1;
     total -= promo;
 
@@ -59,9 +65,6 @@ function calculate() {
 
   document.getElementById("total").innerText =
     "Tổng: " + total.toLocaleString() + " VND";
-  if (total <= 0) {
-    alert("Chọn ít nhất 1 ghế");
-  }
 }
 
 function addToCart() {
