@@ -12,7 +12,7 @@ input.addEventListener("input", function () {
       <div class="d-flex bg-dark p-3 rounded movie-item"
            onclick="goToMovie(${movie.id})"
            style="cursor:pointer">
-        <img src="${movie.image}" width="30" height="40" class="me-3 rounded" />
+        <img src="${window.location.pathname.includes('/pages/') ? '../' : ''}${movie.image}" width="30" height="40" class="me-3 rounded" />
         <div>
           <a href="movie.html?id=${movie.id}" 
          class="link-light link-offset-2 link-underline link-underline-opacity-0">

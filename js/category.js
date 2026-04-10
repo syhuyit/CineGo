@@ -16,7 +16,7 @@ filtered.forEach((movie) => {
       <div class="d-flex bg-dark p-3 rounded movie-item"
            onclick="goToMovie(${movie.id})"
            style="cursor:pointer">
-        <img src="${movie.image}" width="60" height="90" class="me-3 rounded" />
+        <img src="${window.location.pathname.includes('/pages/') ? '../' : ''}${movie.image}" width="60" height="90" class="me-3 rounded" />
         <div>
           <h5>${movie.name}</h5>
           <p>Giá: ${movie.price} VND</p>

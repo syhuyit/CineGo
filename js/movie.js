@@ -9,7 +9,7 @@ if (!movie) {
 }
 
 document.getElementById("name").innerText = movie.name;
-document.getElementById("img").src = movie.image;
+document.getElementById("img").src = (window.location.pathname.includes('/pages/') ? '../' : '') + movie.image;
 document.getElementById("desc").innerText = movie.description;
 document.getElementById("price").innerText = "Giá vé: " + movie.price + " VND";
 
