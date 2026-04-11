@@ -36,17 +36,35 @@ function selectTime(t, el) {
   el.classList.add("btn-warning");
 }
 
+document.getElementById("quantity").addEventListener("input", function () {
+  if (this.value < 1) {
+    this.value = 1;
+  }
+});
+
 function calculate() {
   const seat = Number(document.getElementById("seat").value);
   const quantity = Number(document.getElementById("quantity").value);
 
-  const total = movie.price * seat * quantity;
+  let total = movie.price * seat * quantity;
+
+  if (movie.status === "upcoming") {
+    document.getElementById("release").innerText =
+      "Ngày công chiếu: " + movie.releaseDate;
+    const promo = total * 0.1;
+    total -= promo;
+
+    document.getElementById("total").innerHTML =
+      `Tổng: ${total.toLocaleString("vi-VN")} VND`;
+    document.getElementById("promo").innerHTML =
+      `Đã được giảm: ${promo.toLocaleString("vi-VN")} VND`;
+  } else {
+    document.getElementById("total").innerText =
+      "Tổng: " + total.toLocaleString("vi-VN") + " VND";
+  }
 
   document.getElementById("total").innerText =
     "Tổng: " + total.toLocaleString() + " VND";
-  if (total <= 0) {
-    alert("Chọn ít nhất 1 ghế");
-  }
 }
 
 function addToCart() {

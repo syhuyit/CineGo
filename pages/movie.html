@@ -11,26 +11,92 @@
     <title>Document</title>
   </head>
   <body>
+    <a href="./home.html" class="btn btn-danger ms-3 mt-3"><- Back</a>
     <div class="container mt-5">
       <div class="row">
         <!-- Ảnh -->
         <div class="col-md-4">
-          <img id="img" class="img-fluid" />
+          <img id="img" class="img-fluid" width="500" />
         </div>
         <!-- Infor -->
         <div class="col-md-8 text-white">
-          <h2 id="name"></h2>
+          <h2 class="text-danger" id="name"></h2>
           <p id="desc"></p>
-          <h4 id="price"></h4>
-          <h5>Chọn giờ:</h5>
+          <h3 id="release"></h3>
+          <h4 class="text-warning" id="price"></h4>
+          <h5 class="text-danger">Chọn giờ:</h5>
           <div id="times"></div>
-          <h5 class="mt-3">Chọn ghế:</h5>
-          <select id="seat" class="form-select w-50" onchange="calculate()">
+          <h5 class="mt-3 text-danger">Chọn ghế:</h5>
+          <!-- <div class="container text-center bg-light w-50 h-45 me-20">
+            <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+              <div class="col">
+                <button class="vip btn btn-outline-danger">A1</button>
+              </div>
+              <div class="col">
+                <button class="vip btn btn-outline-danger">A2</button>
+              </div>
+              <div class="col">
+                <button class="vip btn btn-outline-danger">A3</button>
+              </div>
+              <div class="col">
+                <button class="vip btn btn-outline-danger">A4</button>
+              </div>
+              <div class="col">
+                <button class="vip btn btn-outline-danger">A5</button>
+              </div>
+              <div class="col">
+                <button class="nor btn btn-outline-warning">B1</button>
+              </div>
+              <div class="col">
+                <button class="nor btn btn-outline-warning">B2</button>
+              </div>
+              <div class="col">
+                <button class="nor btn btn-outline-warning">B3</button>
+              </div>
+              <div class="col">
+                <button class="nor btn btn-outline-warning">B4</button>
+              </div>
+              <div class="col">
+                <button class="nor btn btn-outline-warning">B5</button>
+              </div>
+              <div class="col">
+                <button class="nor btn btn-outline-warning">C1</button>
+              </div>
+              <div class="col">
+                <button class="nor btn btn-outline-warning">C2</button>
+              </div>
+              <div class="col">
+                <button class="nor btn btn-outline-warning">C3</button>
+              </div>
+              <div class="col">
+                <button class="nor btn btn-outline-warning">C4</button>
+              </div>
+              <div class="col">
+                <button class="nor btn btn-outline-warning">C5</button>
+              </div>
+              <div class="col">
+                <button class="nor btn btn-outline-warning">D1</button>
+              </div>
+              <div class="col">
+                <button class="nor btn btn-outline-warning">D2</button>
+              </div>
+              <div class="col">
+                <button class="nor btn btn-outline-warning">D3</button>
+              </div>
+              <div class="col">
+                <button class="nor btn btn-outline-warning">D4</button>
+              </div>
+              <div class="col">
+                <button class="nor btn btn-outline-warning">D5</button>
+              </div>
+            </div>
+          </div> -->
+          <select id="seat" class="form-select w-25" onchange="calculate()">
             <option value="1">Thường</option>
             <option value="1.4">VIP</option>
             <option value="1.8">Ghế đôi</option>
           </select>
-          <h5 class="mt-3">Số lượng:</h5>
+          <h5 class="mt-3 text-danger">Số lượng:</h5>
           <input
             type="number"
             id="quantity"
@@ -38,7 +104,8 @@
             value="1"
             onchange="calculate()"
           />
-          <h4 class="mt-4" id="total"></h4>
+          <h4 class="mt-4 text-danger" id="total"></h4>
+          <h6 class="mt-1 text-warning" id="promo"></h6>
           <button class="btn btn-success mt-3" onclick="addToCart()">
             Thêm vào giỏ vé
           </button>

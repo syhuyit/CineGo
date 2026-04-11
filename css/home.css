@@ -27,7 +27,9 @@ body {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   margin-bottom: 30px;
 }
-
+#promotion {
+  background-color: #ffc300;
+}
 .movie-card {
   background-color: #1a1a1a;
   border: none;
