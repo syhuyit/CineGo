@@ -1,3 +1,18 @@
+.nav-link {
+  color: white;
+  font-size: 35px;
+  border: 50%;
+  border-bottom: 2px solid white;
+  transition: 0.3s;
+}
+.nav-link:hover {
+  border-bottom: 2px solid red;
+  color: red;
+}
+.nav-item {
+  margin: 0 10px;
+}
+
 #cart-list img {
   object-fit: cover;
 }
