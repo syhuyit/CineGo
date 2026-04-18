@@ -7,7 +7,7 @@ function renderMovie(movie) {
       <div class="card movie-card">
         <div class="img-box">
           <a href="movie.html?id=${movie.id}">
-            <img src="${movie.image}" class="card-img-top" height="250">
+            <img src="${window.location.pathname.includes('/pages/') ? '../' : ''}${movie.image}" class="card-img-top" height="250">
           </a>
           <div class="overlay">
             <p>${movie.name}</p>
