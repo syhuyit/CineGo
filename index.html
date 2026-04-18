@@ -57,5 +57,17 @@
         </p>
       </form>
     </div>
+    <script>
+      function dangNhap() {
+        const cUser = "admin";
+        const cPass = "123456";
+        const user = document.getElementById("user").value;
+        const pass = document.getElementById("pass").value;
+
+        if (user === cUser && pass === cPass) {
+          window.location.href = "./pages/home.html";
+        }
+      }
+    </script>
   </body>
 </html>
