@@ -3,7 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
     <title>Document</title>
   </head>
-  <body></body>
+  <body style="background-color: rgb(54, 54, 54)">
+    <nav class="navbar navbar-expand-lg" style="background-color: #e50914">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand text-white">
+          <img src="../images/logo.png" width="90" alt="logo" id="logo" />CineGo
+        </a>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a href="./home.html" class="nav-link">Trang chính</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container bg-dark">
+      <h2 class="title text-white">All Film</h2>
+      <div class="row" id="movie-list"></div>
+    </div>
+
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/data.js"></script>
+    <script src="../js/allfilm.js"></script>
+  </body>
 </html>
